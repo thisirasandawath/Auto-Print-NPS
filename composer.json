@@ -1,0 +1,21 @@
+{
+    "name": "greenline.lk/ppp",
+    "description": "PHP POS Print Server",
+    "require": {
+        "hoa/websocket": "3.16.10.24",
+        "mike42/escpos-php": "^1.4",
+        "php": ">=5.4.0"
+    },
+    "homepage": "https://github.com/greenline.lk/ppp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thisira Sandawath",
+            "email": "thisira@greenline.lk",
+            "homepage": "http://greenline.lk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Tec\\Ppp\\": "lib/"}
+    }
+}
